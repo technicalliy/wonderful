@@ -1,0 +1,71 @@
+body {
+	background: rgb(246, 252, 255);
+}
+
+h1 {
+	font-family: Helvetica;
+	font-size: 60px;
+	font-weight: 500;
+	color: #183A4F;
+	margin: 10px 0px;
+	line-height: 68px;
+}
+
+h2 {
+	font-family: Helvetica;
+	color: #5D5D5D;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 33px;
+}
+
+.intro {
+	position: absolute;
+	width: 540px;
+	left: 165px;
+	top: 319px;
+}
+
+.logo {
+	background-image: url('./assets/logodark@2x.png');
+	background-size: 128px 32px;
+	width: 128px;
+	height: 32px;
+	left: 166px;
+	top: 33px;
+	position: relative
+}
+
+.share-card {
+	background: rgb(232, 50, 103);
+	width: 375px;
+	height: 635px;
+	position: relative;
+	top: 193px;
+	left: 865px;
+	border-radius: 15px;
+}
+
+.share-card img {
+	width: 375px;
+}
+
+.share-card .text {
+	margin: 30px;
+}
+
+.share-card h3 {
+	font-family: Helvetica;
+	font-weight: 300;
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.7);
+	margin: 0px 0px 10px 0px;
+}
+
+.share-card h1 {
+	font-family: Helvetica;
+	color: white;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 0px;
+}

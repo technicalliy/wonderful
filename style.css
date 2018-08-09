@@ -5,6 +5,36 @@ body {
 	background-size: cover;
 }
 
+.top-cluster {
+	background-image: url('./assets/top_cluster.png');
+	position: absolute;
+	top: 0;
+	height: 352px;
+	width: 308px;
+	left: 508px;
+	background-repeat: no-repeat;
+}
+
+.bottom-left-cluster {
+	background-image: url('./assets/bottom_left_cluster.png');
+	background-repeat: no-repeat;
+	width: 874px;
+	height: 799px;
+	position: absolute;
+	top: 668px;
+	left: 0px;
+}
+
+.upper-left-cluster{
+	background-image: url('./assets/upper_left_cluster.png');
+	background-repeat: no-repeat;
+	width: 84px;
+	height: 135px;
+	left: 40;
+	top: 162px;
+	position: absolute;
+}
+
 .window-logo {
 	background-image: url('./assets/window_accent.png');
 	width: 61px;

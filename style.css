@@ -70,7 +70,7 @@ body {
 	position: absolute;
 	margin: 80px 0px;
 	right: 100;
-    top: 1450;
+    top: 1440;
     opacity: 0;
     animation: fadeOut 0.5s;
 }
@@ -84,7 +84,6 @@ body {
 #phone_message2 {
 	top: 1550;
 }
-
 
 #top-center {
 	background-image: url('./assets/p2/top_center.png');
@@ -129,7 +128,8 @@ body {
 	width: 61px;
 	height: 100px;
 	position: absolute;
-	top: 775px;
+	top: 815px;
+	right: 50px;
 }
 
 h1 {
@@ -148,7 +148,7 @@ h1 {
 
 h2 {
 	font-family: Helvetica;
-	color: #5D5D5D;
+	color: rgba(93, 93, 93, 0.7);
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 33px;

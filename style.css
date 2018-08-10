@@ -133,16 +133,24 @@ h2 {
 	top: 319px;
 }
 
-.logo {
-	background-image: url('./assets/logodark@2x.png');
+.logo-1, .logo-2 {
 	background-size: 128px 32px;
 	width: 128px;
 	height: 32px;
 	left: 166px;
 	top: 33px;
-	position: relative
+	position: fixed;
+	z-index: 100;
 }
 
+.logo-1 {
+	background-image: url('./assets/logodark@2x.png');
+}
+
+.logo-2 {
+	background-image: url('./assets/logo-2.png');
+	opacity: 0;
+}
 .share-card {
 	background: rgb(232, 50, 103);
 	width: 375px;

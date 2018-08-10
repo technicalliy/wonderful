@@ -223,6 +223,11 @@ h2 {
 	height: 210px;
 }
 
+.sub-card:hover{
+	animation: 0.5s fade;
+	opacity: 0.5;
+}
+
 .sub-card:nth-of-type(2) {
 	background-color: #fff;
 }
@@ -248,5 +253,14 @@ h2 {
 
 #content-img-3 {
 	background-image: url('./assets/p2/img3.png');
+}
 
+@keyframes fade {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0.5;
+	}
 }

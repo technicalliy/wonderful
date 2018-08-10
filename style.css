@@ -1,11 +1,25 @@
 body {
 	background: rgb(246, 252, 255);
+	margin: 0px;
+}
+
+#page-1 {
 	background-image: url('./assets/bg_shapes.png');
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100vh;
+	margin-top: -30px;
 }
 
-.top-cluster {
+#page-2 {
+	background-image: url('./assets/p2/bg_shapes.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-color: rgb(7,68,94);
+}
+
+#top-cluster {
 	background-image: url('./assets/top_cluster.png');
 	position: absolute;
 	top: 0;
@@ -15,17 +29,17 @@ body {
 	background-repeat: no-repeat;
 }
 
-.bottom-left-cluster {
+#bottom-left-cluster {
 	background-image: url('./assets/bottom_left_cluster.png');
 	background-repeat: no-repeat;
-	width: 874px;
-	height: 799px;
+	width: 400px;
+	height: 400px;
 	position: absolute;
 	top: 668px;
 	left: 0px;
 }
 
-.upper-left-cluster{
+#upper-left-cluster{
 	background-image: url('./assets/upper_left_cluster.png');
 	background-repeat: no-repeat;
 	width: 84px;
@@ -33,6 +47,16 @@ body {
 	left: 40;
 	top: 162px;
 	position: absolute;
+}
+
+#phone {
+	background-image: url('./assets/p2/phone.png');
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 865px;
+	position: absolute;
+	margin: 80px 0px;
+	right: 190;
 }
 
 .window-logo {
@@ -51,6 +75,11 @@ h1 {
 	color: #183A4F;
 	margin: 10px 0px;
 	line-height: 68px;
+}
+
+#page-2 h1 {
+	color: #fff;
+	margin: 20px 0px;
 }
 
 h2 {
@@ -111,4 +140,64 @@ h2 {
 	font-size: 30px;
 	font-weight: 400;
 	margin: 0px;
+}
+
+.content-card {
+	float: left;
+	border: 1px solid grey;
+	height: 221px;
+	width: 540px;
+	margin-left: 165px;
+	margin-top: 134px;
+}
+
+.content-card .text {
+	font-family: Helvetica;
+	float: left;
+	/*color: #FFFFFF;*/
+	font-size: 18px;
+	line-height: 33px;
+	width: 300px;
+	height: 100%;
+	margin-left: 30px;
+}
+
+.num {
+	font-family: sans-serif;
+	margin-left: 145px;
+	font-size: 60px;
+	color: #fff;
+	position: absolute;
+	margin-top: 75px;
+}
+
+.sub-card{
+	display: flex;
+}
+
+.sub-card:nth-of-type(2) {
+	background-color: #fff;
+}
+
+#content-img-1,
+#content-img-2,
+#content-img-3 {
+	width: 161px;
+	height: 214px;
+	margin-bottom: 20px;
+}
+
+#content-img-1 {
+	background-image: url('./assets/p2/img1.png');
+	width: 161px;
+	height: 214px;
+}
+
+#content-img-2 {
+	background-image: url('./assets/p2/img2.png');
+}
+
+#content-img-3 {
+	background-image: url('./assets/p2/img3.png');
+
 }

@@ -7,7 +7,7 @@ body {
 	background-image: url('./assets/bg_shapes.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
+	height: 110%;
 	margin-top: -30px;
 	background-attachment: fixed;
 }
@@ -27,17 +27,17 @@ body {
 	top: 0;
 	height: 352px;
 	width: 308px;
-	left: 508px;
+	left: 35%;
 	background-repeat: no-repeat;
 }
 
 #bottom-left-cluster {
-	background-image: url('./assets/bottom_left_cluster.png');
+	background-image: url('./assets/bottom left cluster.png');
 	background-repeat: no-repeat;
 	width: 400px;
-	height: 400px;
+	height: 500px;
 	position: absolute;
-	top: 668px;
+	top: 65%;
 	left: 0px;
 }
 
@@ -57,8 +57,8 @@ body {
 	width: 500px;
 	height: 865px;
 	position: absolute;
-	margin: 65px 0px;
-	right: 190;
+	margin: 75px 0px;
+	left: 58%;
 }
 
 #phone_message,
@@ -184,8 +184,8 @@ h2 {
 	width: 375px;
 	height: 635px;
 	position: relative;
-	top: 193px;
-	left: 865px;
+	top: 23%;
+	left: 60%;
 	border-radius: 15px;
 	box-shadow: 0px 2px 34px rgba(0,0,0,0.5);
 }

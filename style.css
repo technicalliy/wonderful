@@ -57,9 +57,34 @@ body {
 	width: 500px;
 	height: 865px;
 	position: absolute;
-	margin: 80px 0px;
+	margin: 65px 0px;
 	right: 190;
 }
+
+#phone_message,
+#phone_message2 {
+	background-image: url('./assets/p2/phone_message.png');
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	margin: 80px 0px;
+	right: 100;
+    top: 1450;
+    opacity: 0;
+    animation: fadeOut 0.5s;
+}
+
+#phone_message:hover,
+#phone_message2:hover{
+    animation: fadeIn 0.5s;
+    opacity: 1;
+}
+
+#phone_message2 {
+	top: 1550;
+}
+
 
 #top-center {
 	background-image: url('./assets/p2/top_center.png');
@@ -84,9 +109,10 @@ body {
 	width: 169px;
 	height: 233px;
 	position: absolute;
-	right: -20;
+	right: 0;
 	margin-top: 711px;
 	background-repeat: no-repeat;
+	background-position-x: 20px;
 }
 
 #bottom-left {
@@ -224,7 +250,7 @@ h2 {
 }
 
 .sub-card:hover{
-	animation: 0.5s fade;
+	animation: 0.5s fadeHalf;
 	opacity: 0.5;
 }
 
@@ -255,12 +281,32 @@ h2 {
 	background-image: url('./assets/p2/img3.png');
 }
 
-@keyframes fade {
+@keyframes fadeHalf {
 	0% {
 		opacity: 1;
 	}
 
 	100% {
 		opacity: 0.5;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
 	}
 }
